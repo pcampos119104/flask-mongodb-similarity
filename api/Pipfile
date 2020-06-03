@@ -9,6 +9,9 @@ verify_ssl = true
 flask = "*"
 gunicorn = "*"
 flask-restful = "*"
+pymongo = "*"
+passlib = "*"
+spacy = "*"
 
 [requires]
 python_version = "3.8"

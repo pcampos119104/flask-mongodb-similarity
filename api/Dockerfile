@@ -5,6 +5,7 @@ WORKDIR /app
 RUN pip install pipenv
 COPY Pipfile* ./
 RUN pipenv install --system 
+RUN python -m spacy download en_core_web_sm
 
 COPY ./code .
 
